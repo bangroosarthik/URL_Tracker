@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    background-image: url("/back.jpg");
+    background-size: 10rem;
+}
+
+input{
+    font-size: medium;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border:1px solid green;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+
+
+#btn-el{
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    background-color:#a881af;
+    border: none;
+    color:white;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    
+}
+#btn-el:hover{
+    background-color: gold;
+    color:black;
+}
+#tab-btn{
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    background-color: #55c2da;
+    border: none;
+    color:white;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    
+}
+
+#tab-btn:hover{
+    background-color: gold;
+    color:black;
+}
+
+
+#btn-del{
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    background-color: #5dbea3;
+    border: none;
+    color:white;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+#btn-del:hover{
+    background-color: gold;
+    color:black;
+}
+
+ul{
+    list-style: none;
+    color:black;
+    font-size: medium;
+    text-decoration: none;
+    
+}
+
+li{
+    padding: 0.3rem;
+}
+
+li a{
+    color: white;
+    
+}
+
+li a:hover{
+    color:green;
+}
+
+
+
+
+
+

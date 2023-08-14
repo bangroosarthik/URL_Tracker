@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "URL Tracker",
+    "Description":"This is basically a URL Tracker extension where you can save your URL's",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "hydro-power.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
